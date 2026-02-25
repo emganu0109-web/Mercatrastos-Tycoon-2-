@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mercatrastos Tycoon</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 60px 20px;
+        }
+
+        h1 {
+            font-size: 60px;
+            margin: 0;
+            color: #00ffcc;
+        }
+
+        h2 {
+            margin-top: 10px;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 15px 40px;
+            font-size: 20px;
+            background-color: #00ffcc;
+            color: black;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #00ccaa;
+            transform: scale(1.05);
+        }
+
+        .group-btn {
+            background-color: #ffcc00;
+        }
+
+        .group-btn:hover {
+            background-color: #ffaa00;
+        }
+
+        .discord-btn {
+            background-color: #5865F2;
+            color: white;
+        }
+
+        .discord-btn:hover {
+            background-color: #4752C4;
+        }
+
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+            padding: 50px 20px;
+        }
+
+        .card {
+            background-color: rgba(0,0,0,0.4);
+            padding: 25px;
+            border-radius: 20px;
+            width: 260px;
+        }
+
+        .gallery {
+            padding: 50px 20px;
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .gallery-grid img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.6);
+        }
+
+        section {
+            padding: 50px 20px;
+        }
+
+        .dark-section {
+            background-color: rgba(0,0,0,0.3);
+        }
+
+        footer {
+            padding: 20px;
+            background-color: rgba(0,0,0,0.5);
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🛒 MERCATRASTOS TYCOON 🛒</h1>
+    <h2>Crea tu tienda. Construye tu mercado. Conviértete en magnate.</h2>
+
+    <button onclick="irAlJuego()">🎮 Jugar Ahora</button>
+
+    <br>
+
+    <a href="https://www.roblox.com/es/communities/34740627/NextGen-Clothing-Co#!/about" target="_blank">
+        <button class="group-btn">👥 Únete al Grupo Oficial</button>
+    </a>
+</header>
+
+<section class="features">
+    <div class="card">
+        <h3>🏪 Diseña tu tienda</h3>
+        <p>Desde un pequeño puesto hasta un gran supermercado.</p>
+    </div>
+
+    <div class="card">
+        <h3>📦 Administra productos</h3>
+        <p>Compra mercancía, organiza estantes y fija precios.</p>
+    </div>
+
+    <div class="card">
+        <h3>💰 Haz crecer tu negocio</h3>
+        <p>Gana dinero y conviértete en el mejor del servidor.</p>
+    </div>
+</section>
+
+<section class="gallery dark-section">
+    <h2>📸 Imágenes del Juego</h2>
+    <div class="gallery-grid">
+            <img src="Imagenes/ICONO MERCATRASTOS.png" alt="POSTER MERCATRASTOS.png">
+            <img src="VENTA GYM.png" alt="VENTA GYM.png">
+            <img src="Imagenes/GAMEPLAY 1.png" alt="GAMEPLAY 1.png">
+            <img src="Imagenes/GAMEPLAY 2.png" alt="GAMEPLAY 2.png">
+            <img src="Imagenes/GAMEPLAY 3.png" alt="GAMEPLAY 3.png">
+            <img src="Imagenes/GAMEPLAY 4.png" alt="GAMEPLAY 4.png">
+    </div>
+</section>
+
+<section>
+    <h2>🆕 Última Actualización</h2>
+    <p>
+        <strong>Update 1.1 - Lanzamiento Oficial</strong><br><br>
+        ✔ Sistema completo de tiendas<br>
+        ✔ Nuevos productos agregados<br>
+        ✔ Mejoras de rendimiento<br>
+        ✔ Corrección de errores
+    </p>
+</section>
+
+<section class="dark-section">
+    <h2>🎉 Evento Especial</h2>
+    <p>
+        💰 ¡Dinero x2 este fin de semana!<br>
+        🏪 Compite por tener la tienda más grande.<br>
+        🔥 Evento por tiempo limitado.
+    </p>
+</section>
+
+<section>
+    <h2>💬 Comunidad Oficial</h2>
+    <p>Únete a nuestro Discord para noticias y eventos exclusivos.</p>
+
+    <a href="https://discord.com/channels/1471628727321362483/1471629114955006186" target="_blank">
+        <button class="discord-btn">🔥 Unirse al Discord</button>
+    </a>
+</section>
+
+<footer>
+    © 2026 Mercatrastos Tycoon | Juego en Roblox
+</footer>
+
+<script>
+    function irAlJuego() {
+        window.location.href = "https://www.roblox.com/es/games/87193312359624/Mercatrastos-Tycoon";
+    }
+</script>
+
+</body>
+</html>
